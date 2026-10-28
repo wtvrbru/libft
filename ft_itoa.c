@@ -12,7 +12,7 @@
 #include "libft.h"
 #include <stdlib.h>
 
-size_t	digits_count(int n)
+static size_t	digits_count(int n)
 {
 	size_t	i;
 
@@ -30,7 +30,7 @@ size_t	digits_count(int n)
 	return (i);
 }
 
-char	*storin(int n)
+static char	*storin(int n)
 {
 	char	*buffer;
 	size_t	i;
@@ -55,7 +55,7 @@ char	*storin(int n)
 	return (buffer);
 }
 
-char	*case_int_min(int n)
+static char	*case_int_min(int n)
 {
 	char	*buffer;
 

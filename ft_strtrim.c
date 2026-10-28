@@ -12,7 +12,7 @@
 #include "libft.h"
 #include <stdlib.h>
 
-int	is_in_set(char c, char *set)
+static int	is_in_set(char c, char *set)
 {
 	size_t	i;
 
