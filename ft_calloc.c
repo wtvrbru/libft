@@ -14,7 +14,7 @@
 
 void	*calloc(size_t nmemb, size_t size)
 {
-	void	*a;
+	unsigned char	*a;
 	size_t	t;
 	size_t	i;
 
@@ -25,8 +25,8 @@ void	*calloc(size_t nmemb, size_t size)
 	i = 0;
 	while (i < t)
 	{
-		(unsigned char *)a[i] = 0;
+		a[i] = 0;
 		i++;
 	}
-	return (a);
+	return ((void *)a);
 }

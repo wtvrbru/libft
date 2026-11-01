@@ -74,7 +74,7 @@ static	char	**cpy_wrd(const char *s, char **str, char c)
 			if (!str[j])
 				return (freee(str, j));
 			j++;
-			i += len(s + i, c);
+			i = word_len(s + i, c) + i;
 		}
 		else
 			i++;
