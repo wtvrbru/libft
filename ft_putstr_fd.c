@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: rtouirta <rtouirta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 16:54:27 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/10/23 16:58:14 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/02 16:57:35 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)

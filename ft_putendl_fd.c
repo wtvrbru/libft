@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: rtouirta <rtouirta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 16:59:06 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/10/23 17:01:40 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/02 16:57:24 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+
 #include "libft.h" 
 
 void	ft_putendl_fd(char *s, int fd)

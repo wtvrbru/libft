@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: rtouirta <rtouirta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 18:33:01 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/10/23 18:00:28 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/02 16:54:02 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	digits_count(int n)
 {
