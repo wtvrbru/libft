@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rtouirta <rtouirta@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 14:11:43 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/11/02 16:54:13 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/07 19:13:02 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	t_list	*tmp;
 	t_list	*t;
 
-	if (lst == NULL || *lst == NULL)
+	if (lst == NULL || *lst == NULL || !del)
 		return ;
 	tmp = *lst;
 	while (tmp != NULL)

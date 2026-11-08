@@ -6,9 +6,10 @@
 /*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 16:28:56 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/10/18 11:20:23 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/07 16:05:53 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)

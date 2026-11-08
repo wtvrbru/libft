@@ -6,9 +6,10 @@
 /*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 12:53:03 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/11/02 01:43:30 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/07 16:06:12 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)

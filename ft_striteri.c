@@ -6,9 +6,10 @@
 /*   By: rtouirta <rtouirta@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 15:49:16 by rtouirta          #+#    #+#             */
-/*   Updated: 2026/10/23 18:01:31 by rtouirta         ###   ########.fr       */
+/*   Updated: 2026/11/07 16:05:17 by rtouirta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
