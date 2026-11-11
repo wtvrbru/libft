@@ -95,7 +95,7 @@ char	*ft_itoa(int n)
 		result[0] = '0';
 		result[1] = 0;
 		return (result);
-	}	
+	}
 	result = storin(n);
 	return (result);
 }
